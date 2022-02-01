@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix{
+    content: " ";
+    display:block;
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+/* NavBar */
+
+.navbar{
+    background:rgb(0, 0, 0);
+}
+.main-section{
+    margin:0 15%;
+    height: 52px;
+}
+.header-left img{
+    height: 52px;
+    border: 1px solid rgb(92, 88, 88);
+}
+.header-right{
+    height: 20px;
+    line-height: 50px;
+    display: inline-block;
+}   
+.header-right li{
+    display: inline-block;
+}
+.header-right li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header-right li:hover{
+    background-color:rgb(95, 95, 95);
+}
+.header-right a:hover{
+    color:aqua;
+    text-decoration:underline;
+}
+.header-right input{
+    outline: none;
+}
+/* Card */
+.card{
+    height: 300px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background:rgb(87, 79, 79);
+    border-radius:5px;
+    color:white;
+    overflow: hidden;
+}
+.cardIntro{
+    width: 30%;
+    float: left;
+}
+.cardBio{
+    float: right;
+    width: 70%;
+}
+.cardImage{
+    width: 150px;
+    height:150px;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+.cardImage img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.cardName{
+    text-align: center;
+}
+.cardBio{
+    background: rgb(224, 197, 197);
+    height: 100%;
+}
+.cardPara{
+    background:rgb(143, 123, 123);
+    padding: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    line-height: 1.3;
+}
+.cardPara h2{
+    text-align: center;
+    margin: 15px 0px;
+}
+.cardPara p{
+    text-align: center;
+}
+.cardIcon h3{
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color:rgb(87, 79, 79)
+}
+.cardIcon li{
+    display: inline-block;
+    padding: 8px;
+    float: left;
+}
+.cardIcon li:hover{
+    background-color:rgb(255, 255, 255);
+    border-radius: 2px;
+}
+.cardIcon a{
+    padding: 5px;
+    text-decoration: none;
+}
+.cardIcon a:hover{
+    color: #000000;
+}
+.cardIcon i{
+    padding: 5px;
+}
+.cardIcon i:hover{
+    color: red;
+}
+
+ /* formSection */
+ .form{
+    background-color:rgb(37, 97, 9);
+    height:400px;
+    text-align:center;
+    border-radius: 5px;
+ }
+ .formPic{
+     float:left;
+     width: 40%;
+ }
+ .formPic img{
+     width: 100%;
+     height: 400px;
+ }
+ .formTitle{
+    float:right;
+    width: 60%;
+    color:rgb(255, 255, 255);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .formTitle label{
+   padding-right: 5px;
+   cursor: pointer;
+ }
+ .formTitle label:hover{
+    color: rgb(53, 9, 9);
+    
+ }
+ .formTitle h2{
+    width: 400px;
+    text-align: center;
+    margin: 30px auto;
+    color: rgb(255, 255, 255);
+    background:rgb(100, 97, 97);
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+ }
+ .formTitle h2:hover{
+    color: rgb(11, 28, 124);
+ }
+ .formTitle input{
+     outline: none;
+ }
+ .formTitle textarea{
+     outline: none;
+ }
+.submit input{
+    background:rgb(95, 95, 95);
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px 25px;
+}
+.submit input:hover{
+    background:rgb(167, 166, 166);
+}
+/* ProductList */
+
+
+.headTitle p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.headTitle h1{
+    font-size: 30px;
+    padding: 15px 0 5px 0px;
+    text-align: center;
+}
+.productList{
+    background: rgba(122, 127, 129, 0.287);
+}
+.listSection{
+    padding: 0px 250px;
+}
+.listSection h3{
+    color:rgb(141, 57, 167);
+    font-size: 30px;
+    padding: 15px 0 5px 0px;
+}
+.olist{
+    float: left;
+    font-size: 20px;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+.ulist{
+    float: right;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.ulist ul{
+    list-style-type: square;
+}
+.ulist li:nth-child(odd){
+    background:#d3cfcf;
+}
+.olist li:nth-child(odd){
+    background:#d3cfcf;
+}
+
+/* cssBox */
+
+.boxmodel{
+    height: 600px;
+    width: 100%;
+    background: rgb(158, 195, 199);
+    overflow: hidden;
+}
+.boxmodel h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+.mainDiv{
+    width: 500px;
+    height: 500px;
+    background: rgb(204, 207, 207);
+    margin-left: 400px;
+    margin-bottom: 200px;
+    position: relative;
+}
+.outLine{
+    width: 70%;
+    height: 70%;
+    background: rgb(16, 160, 160);
+    top: 15%;
+    left: 15%;
+    position: absolute;
+}
+.border{
+    width: 70%;
+    height: 70%;
+    background: rgb(174, 190, 190);
+    top: 15%;
+    left: 15%;
+    position: absolute;
+}
+.margin{
+    width: 70%;
+    height: 70%;
+    background: rgb(21, 160, 16);
+    top: 15%;
+    left: 15%;
+    position: absolute;
+}
+.padding{
+    width: 70%;
+    height: 70%;
+    background: rgb(143, 98, 87);
+    top: 15%;
+    left: 15%;
+    position: absolute;
+}
+.padding h6{
+    text-align: center;
+}
